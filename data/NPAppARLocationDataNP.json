@@ -1,0 +1,536 @@
+{
+
+  "LocationPoints": [
+    {
+      "Continent": "eu",
+      "Lat": 43.8763981462889,
+      "Lon": 11.098296315230856,
+      "FenceSize": 50,
+      "Id": "PratoMitologieDigitali",
+      "Secret": false,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 1
+      },
+      "ARObjName": {
+        "en": "Prato, Mitologie Digitali"
+      }
+    },
+
+    {
+      "Continent": "eu",
+      "Lat": 40.84151590080717,
+      "Lon": 14.243609090022039,
+      "FenceSize": 50,
+      "Id": "SuorOrsolaTerrace",
+      "Secret": false,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 1
+      },
+      "ARObjName": {
+        "en": "Napoli, Suor Orsola Benincasa Terrace"
+      }
+    },
+
+    {
+      "Continent": "eu",
+      "Lat": 41.9000550736083,
+      "Lon": 12.47932116553811,
+      "FenceSize": 50,
+      "Id": "PiazzaPietra",
+      "Secret": false,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 1
+      },
+      "ARObjName": {
+        "en": "Roma, Piazza di Pietra"
+      }
+    },
+
+
+
+
+
+
+
+    {
+      "Continent": "us",
+      "Lat": 40.78165488722391,
+      "Lon": -73.96642454827469,
+      "FenceSize": 50,
+      "Id": "NYCentralPark",
+      "Secret": false,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 1
+      },
+      "ARObjName": {
+        "en": "New York, Central Park",
+        "it": "New York, Central Park"
+      }
+    },
+    {
+      "Continent": "us",
+      "Lat": 40.84151590080717,
+      "Lon": 14.243609090022039,
+      "FenceSize": 50,
+      "Id": "NYLibertyState",
+      "Secret": false,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 1
+      },
+      "ARObjName": {
+        "en": "New York, Liberty Statue",
+        "it": "New York, Liberty Statue"
+      }
+    },
+    {
+      "Continent": "as",
+      "Lat": 42.10401820432973,
+      "Lon": 12.178599549046128,
+      "FenceSize": 30,
+      "Id": "Bracciano01",
+      "Secret": false,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 1
+      },
+      "ARObjName": {
+        "en": "Bracciano Duomo",
+        "it": "Bracciano Duomo"
+      }
+    },
+    {
+      "Continent": "as",
+      "Lat": 42.10329387218256,
+      "Lon": 12.180013888441083,
+      "FenceSize": 30,
+      "Id": "Bracciano02",
+      "Secret": false,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 1
+      },
+      "ARObjName": {
+        "en": "Bracciano Sentinella",
+        "it": "Bracciano Sentinella"
+      }
+    },
+    {
+      "Continent": "as",
+      "Lat": 42.103691376382685,
+      "Lon": 12.179768503497494,
+      "FenceSize": 30,
+      "Id": "Bracciano03",
+      "Secret": false,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 1
+      },
+      "ARObjName": {
+        "en": "Bracciano Piazza Padella",
+        "it": "Bracciano Piazza Padella"
+      }
+    },
+    {
+      "Continent": "as",
+      "Lat": 42.103920150243454,
+      "Lon": 12.177349054833408,
+      "FenceSize": 30,
+      "Id": "Bracciano03",
+      "Secret": false,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 1
+      },
+      "ARObjName": {
+        "en": "Bracciano Piazza Castello",
+        "it": "Bracciano Piazza Castello"
+      }
+    },
+
+
+
+
+
+    {
+      "Continent": "debug",
+      "Lat": 0,
+      "Lon": 0,
+      "FenceSize": 50,
+      "Id": "DebugArtwork",
+      "IsDebug": true,
+      "DebugArtworks": {
+        "up": {
+          "Altitude": 0,
+          "AltitudeMode": 0,
+          "PrefabNum": 1,
+          "DistanceFromCamera": 20,
+          "Transform": {
+            "Scale": 1,
+            "RotationY": 0
+          }
+        },
+        "down": {
+          "Altitude": 0,
+          "AltitudeMode": 0,
+          "PrefabNum": 0,
+          "DistanceFromCamera": 60,
+          "Transform": {
+            "Scale": 5,
+            "RotationY": 45
+          },
+          "Animation": {
+            "TimeWait": 0.025,
+            "RotationY": 0.1
+          }
+        }
+      },
+      "ARObjName": { "en": "In front of you!" }
+    }
+
+  ],
+  "BackupDebugAndNotes": [
+    {
+      "Notes": "0 - Baby, 1 - AudioGroup"
+    },
+
+    {
+      "Lat": 42.10392629799007,
+      "Lon": 12.17863269926484,
+      "FenceSize": 50,
+      "Id": "Duomo",
+      "ARObj": {
+        "PrefabID": "AudioGroup",
+        "PrefabNum": 1
+      },
+      "ARObjName": { "en": "Bracciano's Cathedral" },
+      "Visible": true
+    },
+    {}
+  ],
+  "Continents": [
+    {
+      "code": "eu",
+      "name": "Europe"
+    },
+    {
+      "code": "us",
+      "name": "North America"
+    },
+    {
+      "code": "as",
+      "name": "Asia"
+    }
+  ],
+  "AudioUrl": "https://www.theastronut.art/apps/nothingpersonal/audio_vbr/[GROUP_ID]/[SOUND_ID].mp3",
+  "InfoUrl": "https://www.theastronut.art/apps/nothingpersonal",
+  "TextEntries": {
+    "en": {
+      "TITLE_TXT": "Nothing Personal",
+      "ARTIST_TXT": "TheAstronut delivers",
+      "INTRO_TXT": "Nothing personal is a sound art story of epic literature told in the form of contemporary musical telling the history of the deification of the concept of money which, from a simple and useful exchanging code, becomes the most powerful and ancient religion ever existed... without time, without god, without ethics, without responsibility... on the other hand... Nothing Personal.",
+      "INTRO2_TXT": "Welcome to the Asomatic world where you can experience the conjunction of the physical and digital universe. In my sonic metaverse you can personally experience the sensation of physically walking through the metaverse fused into your visual reality. To better enjoy this immersive audio experience, I recommend that you put on headphones, now you can break the boundaries of the stage space and immerse yourself in the theatrical action. Get closer to each globe of light, move within the narrative, listen to the story, perceive the presence of the different sounds by moving in space.",
+      "TAP_CONTINUE_TXT": "\n\nTAP TO CONTINUE",
+      "CALCULATING_DISTANCE": "Calculating distance to locations...",
+      "LOCATIONS_TXT": "Nothing Personal is live in\n\n",
+      "LOCATION_REACHED": "Reached Location:",
+      "DISTANCE_PAGE_TITLE": "Nothing Personal, performance locations:",
+      "DISTANCE_CLOSEST_PAGE_TITLE": "<align=\"center\">Nothing Personal, nearest location:",
+      "DISTANCE_CLICK_ADDON": "TAP FOR FULL LIST OF LOCATIONS</align>",
+      "CAPTURE_SCREENSHOT_ADDON": "TAP TO CAPTURE SCREENSHOT</align>",
+
+      "DISTANCE": "<mark=#0000bb66>{0}</mark>",
+      "LOCATION": "<mark=#00990044>{0}</mark>"
+    }
+  },
+  "IntroSteps": [
+    {
+      "Type": "TapTxt",
+      "Text": "INTRO_TXT"
+    },
+    {
+      "Type": "TapTxt",
+      "Text": "INTRO2_TXT"
+    },
+    {
+      "Type": "TapLocations_ContinentsOnly",
+      "Text": "LOCATIONS_TXT"
+    }
+  ],
+
+
+
+
+  "LocationPoints_BACKUP": [
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "Continent": "eu",
+      "Lat": 42.10406709982657,
+      "Lon": 12.177130126018415,
+      "FenceSize": 50,
+      "Id": "Castello",
+      "Secret": false,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 1
+      },
+      "ARObjName": {
+        "en": "Bracciano's Castle",
+        "it": "Bracciano, Piazza del Castello"
+      }
+    },
+    {
+      "Continent": "eu",
+      "Lat": 41.89323415652278,
+      "Lon": 12.487624353386446,
+      "FenceSize": 200,
+      "Id": "LargoRicci",
+      "Secret": true,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 1
+      },
+      "ARObjName": {
+        "en": "Rome, Largo Ricci",
+        "it": "Largo Ricci, Roma"
+      }
+    },
+    {
+      "Continent": "eu",
+      "Lat": 41.90866332451851,
+      "Lon": 12.4825766967079,
+      "FenceSize": 200,
+      "Id": "Medici",
+      "Secret": false,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 1
+      },
+      "ARObjName": {
+        "en": "Rome, Villa Medici's Garden",
+        "it": "Roma, Giardino di Villa Medici"
+      }
+    },
+    {
+      "Continent": "eu",
+      "Lat": 45.43386165666319,
+      "Lon": 12.337662648562324,
+      "FenceSize": 150,
+      "Id": "SanMarco",
+      "Secret": false,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 1
+      },
+      "ARObjName": {
+        "en": "Venice, Piazza San Marco",
+        "it": "Venezia, Piazza S. Marco"
+      }
+    },
+    {
+      "Continent": "eu",
+      "Lat": 42.12457148925496,
+      "Lon": 12.233432664610651,
+      "FenceSize": 5000,
+      "Id": "Lago",
+      "Secret": false,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 0,
+        "Transform": {
+          "Scale": 50,
+          "RotationY": 45
+        },
+        "Animation": {
+          "TimeWait": 0.025,
+          "RotationY": 0.1
+        }
+      },
+      "ARObjName": {
+        "en": "Bracciano Lake",
+        "it": "Lago di Bracciano"
+      }
+    },
+    {
+      "Continent": "eu",
+      "Lat": 41.6054154,
+      "Lon": 13.3877491,
+      "FenceSize": 435.5680,
+      "Id": "Stefano",
+      "Secret": true,
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 0,
+        "Transform": {
+          "Scale": 5,
+          "RotationY": 45
+        },
+        "Animation": {
+          "TimeWait": 0.025,
+          "RotationY": 0.1
+        }
+      },
+      "ARObjName": {
+        "en": "Stefano's home",
+        "it": "Casa di Stefano"
+      }
+    },
+    {
+      "Continent": "eu",
+      "Lat": 42.10326746542997,
+      "Lon": 12.1801344180896,
+      "FenceSize": 50,
+      "Id": "Sentinella",
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 0,
+        "Transform": {
+          "Scale": 5,
+          "RotationY": 45
+        },
+        "Animation": {
+          "TimeWait": 0.025,
+          "RotationY": 0.1
+        }
+      },
+      "ARObjName": {
+        "en": "Bracciano Sentinella",
+        "it": "Bracciano, Belvedere Sentinella"
+      }
+    },
+    {
+      "Continent": "eu",
+      "Lat": 41.897601954456945,
+      "Lon": 12.498458098740429,
+      "FenceSize": 436.0300,
+      "Id": "SMM",
+      "ARObj": {
+        "Altitude": 0,
+        "AltitudeMode": 0,
+        "PrefabNum": 0,
+        "Transform": {
+          "Scale": 15,
+          "RotationY": 45
+        },
+        "Animation": {
+          "TimeWait": 0.025,
+          "RotationY": 0.1
+        }
+      },
+      "ARObjName": {
+        "en": "Santa Maria Maggiore",
+        "it": "Santa Maria Maggiore"
+      }
+    },
+    {
+      "Continent": "debug",
+      "Lat": 0,
+      "Lon": 0,
+      "FenceSize": 50,
+      "Id": "DebugArtwork",
+      "IsDebug": true,
+      "DebugArtworks": {
+        "up": {
+          "Altitude": 0,
+          "AltitudeMode": 0,
+          "PrefabNum": 1,
+          "DistanceFromCamera": 20,
+          "Transform": {
+            "Scale": 1,
+            "RotationY": 0
+          }
+        },
+        "down": {
+          "Altitude": 0,
+          "AltitudeMode": 0,
+          "PrefabNum": 0,
+          "DistanceFromCamera": 60,
+          "Transform": {
+            "Scale": 5,
+            "RotationY": 45
+          },
+          "Animation": {
+            "TimeWait": 0.025,
+            "RotationY": 0.1
+          }
+        }
+      },
+      "ARObjName": { "en": "In front of you!" }
+    }
+  ],
+
+
+
+
+  "TextEntries_BACKUP": {
+    "en": {
+      "ARTIST_TXT": "TheAstronut delivers",
+      "INTRO_TXT": "A geo-located, audiovisual art installation in augmented reality.\n\nThe Baby needs to access the Camera to display the artwork in Augmented Reality, the internet to load artwork locations, and location data to position artworks at the correct coordinates.\n\nNo personal data whatsoever is collected from your device.",
+      "INTRO2_TXT": "Make sure your device GPS is active and you can hear the audio.\n\nFind The Baby using your device camera.",
+      "TAP_CONTINUE_TXT": "\n\nTAP TO CONTINUE",
+      "CALCULATING_DISTANCE": "Calculating distance to locations...",
+      "LOCATIONS_TXT": "The Baby is live in: \n\n",
+      "LOCATION_REACHED": "Reached Location:",
+      "DISTANCE_PAGE_TITLE": "The Baby, performance locations:",
+      "DISTANCE": "<mark=#0000bb66>{0}</mark>",
+      "LOCATION": "<mark=#00990044>{0}</mark>"
+    },
+    "it": {
+      "ARTIST_TXT": "TheAstronut delivers",
+      "INTRO_TXT": "A geo-located, audiovisual art installation in augmented reality.\n\nThe Baby needs to access the Camera to display the artwork in Augmented Reality, the internet to load artwork locations, and location data to position artworks at the correct coordinates.\n\nNo personal data whatsoever is collected from your device.",
+      "INTRO2_TXT": "Make sure your device GPS is active and you can hear the audio.\n\nFind The Baby using your device camera.",
+      "TAP_CONTINUE_TXT": "\n\nTAP TO CONTINUE",
+      "CALCULATING_DISTANCE": "Calculating distance to locations...",
+      "LOCATIONS_TXT": "The Baby is live in: \n\n",
+      "LOCATION_REACHED": "Reached Location:",
+      "DISTANCE_PAGE_TITLE": "The Baby, performance locations:",
+      "DISTANCE": "<mark=#0000bb66>{0}</mark>",
+      "LOCATION": "<mark=#00990044>{0}</mark>"
+    }
+  },
+  "IntroSteps_BACKUP": [
+    {
+      "Type": "TapTxt",
+      "Text": "INTRO_TXT"
+    },
+    {
+      "Type": "TapTxt",
+      "Text": "INTRO2_TXT"
+    },
+    {
+      "Type": "TapLocations",
+      "Text": "LOCATIONS_TXT"
+    }
+  ]
+
+}

@@ -1,0 +1,21 @@
+<!-- Esempio per l'utilizzo dello script per renderizzare nell'html la lista di locations live -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Esempio lista di Locations</title>
+    <!-- Importare la classe JavaScript ES5 per renderizzare la lista delle locations -->
+    <script src="/js/theastronut_locations_loader.js"></script>
+  </head>
+  <body>
+    <h1>List of locations</h1>
+    <!-- Questo è il DIV all'interno del quale verranno visualizzate le locations. L'ID è importante, verrà usato dopo. -->
+    <div id="main_locations_container">
+        <!-- Le locations saranno inesrite qui -->
+    </div>
+    <!-- Alla fine del documento HTML, prima della chiusura del body, inserire il caricatore che creerà la lista dentro il DIV selezionato -->
+    <!-- IMPORTANTE: Sostituire la URL relativa con quella vera: https://www.theastronut.art/apps/NP/NPAppARLocationDataNP.json -->
+    <script>
+      var _myNothingPersonalHTMLLocations = new NothingPersonalLocationsJSONtoHTML('./data/NPAppARLocationDataNP.json', 'main_locations_container');
+    </script>
+  </body>
+</html>
